@@ -55,3 +55,4 @@ In this assignment, we will be creating a simple webpage/web app that will displ
 - [The Twitter API](https://developer.twitter.com/en/docs)
 - [The YouTube API](https://developers.google.com/youtube/)
 - [Worldwide Holidays API](https://calendarific.com/api-documentation)
+- [UI Names API](https://uinames.com/)
