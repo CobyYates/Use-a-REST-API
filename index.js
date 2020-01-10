@@ -20,6 +20,7 @@ class Person {
   }
 }
 
+
 const NewPerson = new Person(
   "Kevin",
   "Hart",
@@ -38,7 +39,7 @@ const theData = getAPIData(
   data.map(user => {
     populateDOM(user);
   });
-  addButton();
+  
 });
 
 function addButton() {
@@ -49,6 +50,7 @@ function addButton() {
 
   btn.addEventListener("click", function() {
     populateDOM(NewPerson);
+    window.scrollTo(0,document.body.scrollHeight);
   });
 }
 
@@ -87,3 +89,4 @@ function populateDOM(single_user) {
   })
 }
 
+addButton();
